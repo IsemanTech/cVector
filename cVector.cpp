@@ -55,7 +55,7 @@ int cVector::at(int i)
 {
     if (i < vSize)
 	return array[i];
-    throw 10;
+    //throw 10;
 }
 void cVector::alloc_new()
 {
