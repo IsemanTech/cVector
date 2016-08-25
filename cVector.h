@@ -20,12 +20,14 @@ public:
     cVector& operator=(const cVector& v);
     //overloading += operator
     //cVector& operator+=(int i);
+    bool operator!=(const cVector& v);
     int at(int i);
+    void clearAll();
 private:
     int vSize;
     int maxSize;
     int* array;
     void alloc_new();
-    
+    int someInt;
 };
 #endif

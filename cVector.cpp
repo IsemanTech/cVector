@@ -91,3 +91,12 @@ cVector& cVector::operator=(const cVector& v)
     return *this;
 
 }
+bool cVector::operator!=(const cVector& v)
+{
+    return (someInt != v.someInt);
+}
+    
+void cVector::clearAll()
+{
+   vSize = 0;
+}
